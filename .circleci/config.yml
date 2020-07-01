@@ -840,6 +840,7 @@ workflows:
   instances_testing:
     # for details of triggered builds see https://circleci.com/docs/2.0/workflows/#nightly-example
     # for details of cron syntax see https://www.unix.com/man-page/POSIX/1posix/crontab/ disable-secrets-detection
+    when: << pipeline.parameters.instance_tests >>
     triggers:
       - schedule:
           # should trigger every day at 2 AM UTC (5 AM Israel Time)
