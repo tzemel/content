@@ -1315,7 +1315,7 @@
         },
         {
             "integrations": "SplunkPy",
-            "playbookID": "SplunkPy_KV_commands",
+            "playbookID": "SplunkPy KV commands",
             "memory_threshold": 200,
             "instance_names": "use_default_handler"
         },
@@ -1339,7 +1339,7 @@
         },
         {
             "integrations": "SplunkPy",
-            "playbookID": "SplunkPy_KV_commands",
+            "playbookID": "SplunkPy KV commands",
             "memory_threshold": 200,
             "instance_names": "use_python_requests_handler"
         },
